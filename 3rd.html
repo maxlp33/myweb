@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'Team_Img/button6.gif',/*url*/'Team_Img/button7.gif',/*url*/'Team_Img/button9.gif',/*url*/'Team_Img/buttonA.gif')">
+
+<p class="auto-style1"><a name="頁首">
+<img alt="" height="2000" src="Team_Img/1.png" width="1414" /></a></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/2.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/3.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/4.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/5.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/6.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/7.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/8.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/9.png" width="1414" /><img alt="" height="2000" src="Team_Img/10.png" width="1414" /></p>
+<p class="auto-style1">
+<img alt="" height="2000" src="Team_Img/11.png" width="1414" /></p>
+<p class="auto-style1"><a href="index.html">
+<img id="img1" alt="回到主頁" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'Team_Img/button7.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'Team_Img/button5.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'Team_Img/button6.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'Team_Img/button6.gif')" src="Team_Img/button5.gif" style="border: 0" width="150" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 1; fp-font: 華康粗黑體(P); fp-font-style: Bold; fp-font-size: 18; fp-font-color-normal: #000080; fp-font-color-hover: #800080; fp-font-color-press: #FF00FF; fp-transparent: 1" fp-title="回到主頁" --></a><a href="#頁首"><img id="img2" alt="回到頁首" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'Team_Img/buttonA.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'Team_Img/button8.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'Team_Img/button9.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'Team_Img/button9.gif')" src="Team_Img/button8.gif" style="border: 0" width="150" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 1; fp-font: 華康粗黑體(P); fp-font-style: Bold; fp-font-size: 18; fp-font-color-normal: #000080; fp-font-color-hover: #800080; fp-font-color-press: #FF00FF; fp-transparent: 1" fp-title="回到頁首" --></a></p>
+
+</body>
+
+</html>
